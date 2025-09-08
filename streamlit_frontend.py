@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(layout='wide', page_title='Flower Shop Chatbot', page_icon='💐')
 
 if 'message_history' not in st.session_state:
-    st.session_state.message_history = [{'content': "Hiya, Im the flower shop chatbot. How can I help?", 'type': 'assistant'}]
+    st.session_state.message_history = [{'content': "Hi, Im the flower shop chatbot. How can I help?", 'type': 'assistant'}]
 
 left_col, main_col, right_col = st.columns([1, 2, 1])
 
